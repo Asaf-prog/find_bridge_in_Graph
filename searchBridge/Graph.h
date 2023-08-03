@@ -27,7 +27,7 @@ protected:
 		Color colorVertex = White;//Color of the vertex for needed
 		list<Edge> edges;
 		list<Edge>::iterator pNextValidEdge;
-        int parent;
+        	int parent;
 	}Vertex;
 
 	vector<Vertex> graph;
