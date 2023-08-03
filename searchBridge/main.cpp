@@ -17,7 +17,8 @@ int main() {
 			unDirectedGraph->initColor();
 			// create a directed graph with dfs
 			DirectedGraph = unDirectedGraph->createDirectedGraph();
-            delete unDirectedGraph;
+            		delete unDirectedGraph;
+			delete DirectedGraph;
 		}
 
 	}
