@@ -1,0 +1,11 @@
+﻿  DirectedGraph.cpp
+C:\Users\asafr\source\repos\searchBridge\DirectedGraph.cpp(41,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\asafr\source\repos\searchBridge\DirectedGraph.cpp(49,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\asafr\source\repos\searchBridge\DirectedGraph.cpp(56,20): warning C4018: '<': signed/unsigned mismatch
+  Func.cpp
+  UndirectedGraph.cpp
+C:\Users\asafr\source\repos\searchBridge\UndirectedGraph.cpp(10,20): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+C:\Users\asafr\source\repos\searchBridge\main.cpp(12,20): warning C4101: 'e': unreferenced local variable
+  Generating Code...
+  searchBridge.vcxproj -> C:\Users\asafr\source\repos\searchBridge\x64\Debug\searchBridge.exe

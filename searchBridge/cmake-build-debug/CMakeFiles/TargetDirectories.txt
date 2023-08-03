@@ -1,0 +1,3 @@
+C:/Users/asafr/source/repos/find_bridge_in_Graph/searchBridge/cmake-build-debug/CMakeFiles/searchBridge.dir
+C:/Users/asafr/source/repos/find_bridge_in_Graph/searchBridge/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/asafr/source/repos/find_bridge_in_Graph/searchBridge/cmake-build-debug/CMakeFiles/rebuild_cache.dir
