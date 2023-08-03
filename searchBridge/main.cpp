@@ -8,14 +8,18 @@ int main() {
 		unDirectedGraph = new UndirectedGraph(numOfVertex, numOfEdges);
 
 		addEdgesToTheGraph(unDirectedGraph, numOfEdges);// add the egeds to the graph
-		if (!unDirectedGraph->isConnectivity()) 
-			std::cout << "The Graph is not connected" << std::endl;
+		if (!unDirectedGraph->isConnectivity()) {
+            std::cout << "The Graph is not connected" << std::endl;
+            delete unDirectedGraph;
+        }
 		else {
 			//painted color of edge in white again
 			unDirectedGraph->initColor();
 			// create a directed graph with dfs
 			DirectedGraph = unDirectedGraph->createDirectedGraph();
+            delete unDirectedGraph;
 		}
+
 	}
 	catch (Exeptions& e) {
 
