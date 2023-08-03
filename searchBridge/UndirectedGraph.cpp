@@ -19,13 +19,13 @@ void UndirectedGraph::addEdge(unsigned int vertex1, unsigned int vertex2) {
 		throw validEdgeExeption("Num vertex not valid");
 
 	list<Edge>::iterator itr = find_if(graph[vertex1 - 1].edges.begin(), graph[vertex1 - 1].edges.end(), [&vertex2](const Edge& edge_) { 
-		return edge_.vertex == vertex2; });//Check if the edge is exist;
+		return edge_.vertex == vertex2; });//Check if the edge exist;
 
 	if (itr != graph[vertex1 - 1].edges.end()) {
 		throw addEdgeExeption("There is an exist edge in the graph");
 	}
 
-	graph[vertex1 - 1].edges.push_back(Graph::Edge{ vertex2 });//Create the new egde and push it the the last of list
+	graph[vertex1 - 1].edges.push_back(Graph::Edge{ vertex2 });//Create the new egde and push it the last of list
 	graph[vertex2 - 1].edges.push_back(Graph::Edge{ vertex1 });//Create the new same edge in the same vertex
 	
 	graph[vertex1 - 1].edges.back().pEdge = &(graph[vertex2 - 1].edges.back());//Initialzing the pivot for the same edge to the other same 
